@@ -138,11 +138,11 @@ main img:hover {
     padding-right: 10px;
     align-self: center;
     max-height: 100%;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 span.motivationheader {
-    color: #b797b8;
+    color: #cc3399;
     font-size: 1.25em;
     line-height: 2em;
     text-align: left;
