@@ -80,10 +80,72 @@ main img:hover {
     padding-top: 25px;
 }
 
+.motivationpoint img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.motivationpoint p {
+    text-align: left;
+}
+
+.sidebysidetextimg {
+    display: grid;
+    grid-template: 50px repeat(3, 150px) / 0.25fr 1.5fr 150px 1fr 0.75fr;
+    grid-template-areas: "header header header header header"
+                         "none text small1 bigimg empty"
+                         "none text small2 bigimg empty"
+                         "none text small3 bigimg empty";
+    gap: 10px;
+}
+
+.sidebysidetextimg .motivationheader {
+    grid-area: header;
+}
+
+.sidebysidetextimg img.large {
+    grid-area: bigimg;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.sidebysidetextimg img.small1 {
+    grid-area: small1;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.sidebysidetextimg img.small2 {
+    grid-area: small2;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.sidebysidetextimg img.small3 {
+    grid-area: small3;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.sidebysidetextimg p{
+    grid-area: text;
+    text-align: right;
+    left: 50px;
+    padding-right: 10px;
+    align-self: center;
+    max-height: 100%;
+    overflow: scroll;
+}
+
 span.motivationheader {
     color: #b797b8;
     font-size: 1.25em;
     line-height: 2em;
+    text-align: left;
 }
 
 main img {
@@ -99,6 +161,29 @@ main img.horizontalinline {
 main img.nexttotext {
     width: 30%;
     height: 550px;
+}
+
+div.centerimages {
+    text-align: center;
+}
+
+img.marginleft {
+    margin-left: 100px;
+}
+
+img.small {
+    width: 125px;
+    height: 175px;
+}
+
+img.square {
+    width: 300px;
+    height: 300px;
+}
+
+img.squareinline {
+    width: 250px;
+    height: 300px;
 }
 
 footer {
