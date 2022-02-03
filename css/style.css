@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: #ebf0ef;
+    font-family: 'Heebo', 'Roboto', sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #616363;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    right: 92%;
+    top: 35px;
+    position: absolute;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar li {
+    padding: 20px 0px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Maven Pro', 'Roboto', sans-serif;
+}
+
+.navbar li:first-child {
+    margin-left: 0px;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+header h1 {
+    font-size: 25px;
+    padding: 30px 25px 15px 25px;
+    text-align: left;
+    margin: 0px 50px;
+    background-color: white;
+}
+
+.divbarspacer {
+    width: 100%;
+    height: 50px;
+    background-color: #ebf0ef;
+}
+
+.smallerspacer {
+    height: 25px;
+    background-color: white;
+    margin: 0px 50px;
+}
+
+main {
+    text-align: left;
+    background-color: white;
+    margin: 0px 50px;
+    line-height: 1.5em;
+    padding: 0px 25px;
+}
+
+main img:hover {
+    box-shadow: 0 5px 15px #616363;
+    transition: box-shadow 0.5s ease-in-out;
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+.motivationpoint {
+    padding-top: 25px;
+}
+
+span.motivationheader {
+    color: #b797b8;
+    font-size: 1.25em;
+    line-height: 2em;
+}
+
+main img {
+    padding: 10px 5px;
+    object-fit: cover;
+}
+
+main img.horizontalinline {
+    width: 32.25%;
+    height: 350px;
+}
+
+main img.nexttotext {
+    width: 30%;
+    height: 550px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Maven Pro', 'Roboto', sans-serif;
+    color: #616363;
+    padding: 25px 10px;
+}
